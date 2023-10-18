@@ -1,0 +1,182 @@
+@media (max-width:1200px) {
+    .container {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width:818px) {
+    .inner-box {
+        bottom: -150px;
+        left: 10px;
+    }
+
+    .inner-box p {
+        font-size: 10px;
+    }
+
+    .inner-box h5 {
+        font-size: 18px;
+    }
+
+    .box:hover .inner-box {
+        bottom: 10px;
+        left: 10px;
+    }
+
+    .inner-home h5 {
+        font-size: 20px;
+    }
+
+    .inner-home h6 {
+        font-size: 12px;
+    }
+
+    .inner-home p {
+        font-size: 12px;
+    }
+
+    .box-end p {
+        font-size: 12px;
+    }
+
+    .popular-card h6 {
+        font-size: 16px;
+    }
+
+    .popular-card p {
+        font-size: 12px;
+    }
+
+    .box-end h5 {
+        font-size: 16px;
+    }
+
+    .end-card p {
+        font-size: 12px;
+    }
+
+    .end-card-text {
+        gap: 5px;
+    }
+}
+
+@media (max-width:600px) {
+    .mobile-btn {
+        display: block;
+        z-index: 100;
+    }
+
+    .header.open .mobile-btn span:nth-child(1) {
+        transform: translateY(0); rotate: 45deg;
+    }
+
+    .header.open .mobile-btn span:nth-child(2) {
+        transform: translateY(0); rotate: -45deg;
+    }
+
+    .header.open .mobile-btn span:nth-child(3) {
+        opacity: 0;
+    }
+
+    .header.open .nav {
+        transform: translate(100%);
+    }
+
+    .nav {
+        position: absolute;
+        left: -400px;
+        top: 0;
+        background-color: #000;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        padding: 30px 0;
+        width: 400px;
+        z-index: 2;
+
+        transition: transform .5s;
+    }
+
+    .header-btn {
+        display: none;
+    }
+
+    .col-4 {
+        width: 100%;
+    }
+
+    .col-8 {
+        width: 100%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-3 {
+        width: 50%;
+    }
+
+    .box img {
+        width: 100%;
+    }
+
+    .inner-home {
+        padding: 20PX 15px;
+        max-height: 200px;
+    }
+
+    .main-box p {
+        font-size: 16px;
+    }
+
+    .main-box h5 {
+        font-size: 30px;
+    }
+
+    .popular-section h5 {
+        font-size: 22px;
+    }
+
+    .row-end .col-3 {
+        width: 100%;
+    }
+
+    .row-end {
+        display: unset;
+    }
+
+    .row-end .col-12 {
+        width: 33.33%;
+    }
+
+    .end-card {
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+    .end-img {
+        width: 80%;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        flex-direction: column-reverse;
+
+        gap: 20px;
+    }
+
+    .footer-wrapper p {
+        font-size: 12px;
+    }
+
+    .footer {
+        padding: 35px 0;
+    }
+}
