@@ -221,9 +221,8 @@ button {
 .inner-home h5 {
     color: #171717;
     font-family: PT Sans;
-    width: 700px;
     font-size: 25px;
-    padding-top: 15px;
+    margin-top: 15px;
 }
 
 .inner-home h6 {
@@ -232,7 +231,7 @@ button {
     width: 400;
     font-style: italic;
     font-size: 14px;
-    padding: 15px 0;
+    margin: 15px 0;
 }
 
 .inner-home p {
@@ -240,7 +239,6 @@ button {
     font-family: PT Sans;
     width: 400;
     font-size: 14px;
-    padding-right: 86px;
 }
 
 /* =========== section6 */
@@ -284,7 +282,7 @@ button {
     width: 700;
     color: #171717;
     font-size: 30px;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .box-popular {
@@ -325,7 +323,7 @@ button {
     width: 700;
     color: #171717;
     font-size: 20px;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .popular-card p {
@@ -334,8 +332,8 @@ button {
     font-style: italic;
     font-size: 14px;
     color: #666;
-    padding-top: 10px;
-    padding-bottom: 80px;
+    margin-top: 10px;
+    margin-bottom: 80px;
 }
 
 /* ================ section8 */
@@ -350,7 +348,7 @@ button {
 }
 
 .box-end {
-    padding-top: 62px;
+    margin-top: 62px;
     width: 100%;
 }
 
@@ -359,12 +357,12 @@ button {
     width: 400px;
     font-size: 14px;
     color: #CECECE  ;
-    padding-top: 28px;
+    margin-top: 28px;
     width: 100%;
 }
 
 .Keep-end h5 {
-    padding-top: 65px;
+    margin-top: 65px;
 }
 
 .box-end h5 {
